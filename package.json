@@ -1,0 +1,33 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple boilerplate for react",
+  "main": "src/index.jsx",
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "watch": "webpack-dev-server --progress --colors --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranneyd/react-boilerplate.git"
+  },
+  "author": "Dustin Kane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ranneyd/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ranneyd/react-boilerplate#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
